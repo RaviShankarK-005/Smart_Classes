@@ -1,0 +1,42 @@
+.body1{
+}
+.ig{
+	width:14%;
+	border-radius:100%;
+}
+.f1{
+	font-family: 'Acme', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+.container-fluid{
+	padding:0% 3%;
+}
+.ig1{
+	width:14%;
+}
+.ig:hover{
+	filter: brightness(80%);
+}
+.ig1:hover{
+	filter: brightness(70%);
+}
+.ig2:hover{
+	transform:rotate(3deg);
+}
+.d-block{
+	border-radius:10%;
+}
+#con,#footer{
+	background-color:lavender;
+}
+h2{
+	padding-left:20px;
+}
+@media (max-width:900px){
+	h1,h2,h3,h4,p{
+		text-align:center;
+	}
+	.mob{
+		color:red;
+	}
+}
